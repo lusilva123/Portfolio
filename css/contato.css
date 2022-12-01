@@ -1,0 +1,45 @@
+.contatos {
+	width: 960px;
+	margin: 0 auto 48px;
+}
+body {
+	padding: 0px;
+	margin: 0px;
+}
+.contatos ul {
+	list-style: none;
+	width: 600px;
+	margin-right: 113px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.badges {
+	border-radius: 8px;
+	width: 30%;
+	margin-bottom: 8px;
+	height: 48px;
+}
+
+.imagem-contato {
+	width: 240px;
+	vertical-align: middle;
+	animation:spin 6s linear infinite;
+
+}
+
+@keyframes spin { 
+	100% { 
+		transform:rotate(360deg); 
+	} 
+}
+
+.titulo-rodape{
+	font-size: 15px;
+	color: #FFFFFF;
+}
+
+.rodape {
+	width: 10%;
+	
+}
